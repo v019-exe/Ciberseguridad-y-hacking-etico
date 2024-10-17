@@ -21,3 +21,4 @@ rsync [opciones] origen destino
 + `-h`: formato humano (muestra información de manera más legible)
 + `--delete`: Elimina los archivos en el destino qe no existen en el origen.
 + `--dry-run`: Simula la transferencia sin hacer cambios reales, muy util para ver que pasaria.
+
