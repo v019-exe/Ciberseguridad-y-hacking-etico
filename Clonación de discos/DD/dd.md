@@ -18,17 +18,17 @@ Esto copia el disco /dev/sda a /dev/sdb, usando bloques de 64K.
 
 ## Parámetros clave de DD
 1. `if=` (input file):
-+ Es el origen de los datos a copiar.
+    + Es el origen de los datos a copiar.
 
 2. `of=` (Output file):
-+ El destino donde se escribirán los datos copiados
+    + El destino donde se escribirán los datos copiados
 
 3. `bs=` (block size):
-+ Especifica el tamaño de los bloques que se leerán y escribirán.
+    + Especifica el tamaño de los bloques que se leerán y escribirán.
 
 4. `count` (copiar 100 bloques de 1M por ejemplo):
-+ Especifica cuátnos bloques se leerán/escribirán. Si no se especifica, `dd` continuará hasta que todo el archivo o dispositivo de origen se copie.
-+ Solo si quieres copiar una parte del archivo o disco, puedes definir cuantos bloques se deben copiar.
+    + Especifica cuátnos bloques se leerán/escribirán. Si no se especifica, `dd` continuará hasta que todo el archivo o dispositivo de origen se copie.
+    + Solo si quieres copiar una parte del archivo o disco, puedes definir cuantos bloques se deben copiar.
 
 ```bash
 dd if=/dev/sda of=/dev/sdb bs=64K count=100
@@ -36,12 +36,12 @@ dd if=/dev/sda of=/dev/sdb bs=64K count=100
 Esto copiará los 100 primeros bloques del disco /dev/sda a /dev/sdb de 64K.
 
 5. `skip=` (skip n bytes):
-+ Salta una cantidad específica de bloques al leer del archivo de origen.
-+ Util si no quieres copiar todo el archivo o disco desde el inicio.
+    + Salta una cantidad específica de bloques al leer del archivo de origen.
+    + Util si no quieres copiar todo el archivo o disco desde el inicio.
 
 6. `seek=` (seek n bytes):
-+ Salta una cantidad específica de bloques al escribir en el archivo de destino.
-+ Util para escribir datos en una ubicación específica del archivo de destino.
+    + Salta una cantidad específica de bloques al escribir en el archivo de destino.
+    + Util para escribir datos en una ubicación específica del archivo de destino.
 
 ```bash
 seek=10
