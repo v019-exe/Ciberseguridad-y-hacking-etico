@@ -152,3 +152,80 @@ Un **rootkit** es un conjunto de herramientas de software que permite a un ataca
 - A menudo se utiliza para mantener acceso persistente y sigiloso a un sistema comprometido.
 
 Ambos, **backdoors** y **rootkits**, son usados por atacantes para comprometer la seguridad de un sistema y obtener control a largo plazo sin ser detectados.
+
+# Ingeniería Social
+
+La **ingeniería social** es una técnica utilizada por atacantes para manipular psicológicamente a las personas con el fin de obtener información confidencial, acceder a sistemas o cometer fraudes. A diferencia de los ataques técnicos, la ingeniería social se basa en el **comportamiento humano** y en explotar la confianza, la ignorancia o la falta de atención de las víctimas.
+
+## Conceptos Clave de la Ingeniería Social
+
+### 1. ¿Qué es la Ingeniería Social?
+Es el arte de influenciar a las personas para que revelen información sensible o realicen acciones que comprometan la seguridad de sistemas y datos. Se aprovecha de la tendencia humana a confiar en otros, así como de la falta de conocimientos sobre amenazas cibernéticas.
+
+### 2. Tácticas Comunes de Ingeniería Social
+
+- **Phishing**  
+  Envío de correos electrónicos fraudulentos que parecen provenir de una fuente confiable para engañar a las personas a revelar contraseñas o descargar malware.
+
+- **Spear Phishing**  
+  Un ataque dirigido hacia un individuo o grupo específico, con mensajes personalizados que aumentan la probabilidad de éxito.
+
+- **Vishing (Voice Phishing)**  
+  Uso de llamadas telefónicas para engañar a las víctimas y obtener información sensible como contraseñas o números de tarjeta de crédito.
+
+- **Smishing (SMS Phishing)**  
+  Similar al phishing, pero se realiza a través de mensajes SMS. El atacante envía mensajes con enlaces maliciosos o pide información confidencial.
+
+- **Baiting**  
+  Técnica en la que el atacante deja un dispositivo físico, como una memoria USB infectada con malware, en un lugar donde la víctima lo encuentre y lo conecte a su computadora.
+
+- **Pretexting**  
+  El atacante crea un pretexto o una historia falsa para engañar a la víctima, haciéndola creer que necesita dar acceso o información confidencial.
+
+- **Quid pro quo**  
+  Promete un beneficio a la víctima a cambio de información o acceso a un sistema. Por ejemplo, el atacante se hace pasar por un técnico de soporte que ofrece "ayuda" a cambio de credenciales.
+
+- **Tailgating o Piggybacking**  
+  El atacante sigue a una persona autorizada a través de una puerta de seguridad para acceder a áreas restringidas sin tener credenciales.
+
+- **Shoulder Surfing**  
+  Técnica de observación en la que el atacante se coloca físicamente cerca de la víctima para espiar mientras introduce sus contraseñas o datos sensibles.
+
+- **Dumpster Diving**  
+  Búsqueda de información sensible en la basura, como documentos, contraseñas o dispositivos desechados que aún pueden contener datos útiles.
+
+### 3. Técnicas Psicológicas Utilizadas en Ingeniería Social
+
+- **Autoridad**  
+  Los atacantes se hacen pasar por figuras de autoridad, como un jefe, gerente o miembro del departamento de TI, para hacer que las víctimas confíen en ellos y revelen información.
+
+- **Urgencia**  
+  Crear una sensación de urgencia para presionar a la víctima a tomar decisiones apresuradas, como revelar información o hacer clic en un enlace antes de pensarlo bien.
+
+- **Simpatía o Confianza**  
+  Ganarse la simpatía o confianza de la víctima mediante la creación de una relación amigable o manipulando emociones.
+
+- **Reciprocidad**  
+  Los atacantes ofrecen algo a la víctima, creando una sensación de obligación que puede llevar a la víctima a corresponder con información o acceso.
+
+### 4. Defensa Contra la Ingeniería Social
+
+- **Educación y Concienciación**  
+  Las personas deben estar capacitadas para reconocer las tácticas de ingeniería social y estar alerta ante solicitudes sospechosas de información.
+
+- **Autenticación Multifactor (MFA)**  
+  Utilizar más de un método de autenticación para proteger cuentas y sistemas, dificultando el acceso a los atacantes que solo tienen credenciales básicas.
+
+- **Políticas de Seguridad**  
+  Implementar políticas claras para el manejo de información sensible, acceso a sistemas y la verificación de solicitudes antes de actuar.
+
+- **Detección de Ingeniería Social**  
+  Enseñar a los usuarios a detectar señales de un posible ataque de ingeniería social, como urgencia excesiva, correos electrónicos no solicitados o solicitudes fuera de lo común.
+
+- **Simulaciones de Ataques**  
+  Realizar simulaciones de phishing y otros ataques de ingeniería social para entrenar al personal y mejorar su capacidad de respuesta.
+
+## Conclusión
+
+La ingeniería social es una amenaza seria que aprovecha el comportamiento humano para comprometer la seguridad. La mejor defensa es la educación y la concienciación, así como el uso de buenas prácticas de seguridad, como la autenticación multifactor y políticas estrictas para la gestión de la información.
+
