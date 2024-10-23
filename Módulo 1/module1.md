@@ -121,3 +121,34 @@ El dominio de aplicación incluye todos los sistemas críticos, las aplicaciones
 - **Infraestructura como Servicio (IaaS)**  
   Proporciona recursos de computación virtualizados, como hardware, software, servidores, almacenamiento y otros componentes de infraestructura a través de Internet.
 
+## Rootkits y backdoors
+
+### Backdoor
+
+Un **backdoor** (puerta trasera) es un tipo de acceso no autorizado o oculto a un sistema informático, red o software. Los backdoors son creados intencionalmente o como resultado de una vulnerabilidad explotada por atacantes. Su propósito es permitir a los usuarios malintencionados eludir los mecanismos de seguridad convencionales, como la autenticación o la verificación de permisos.
+
+Los backdoors pueden ser instalados de diversas formas:
+- Mediante la explotación de vulnerabilidades en el sistema.
+- A través de malware que instala el acceso sin que el usuario se dé cuenta.
+- Creación intencionada por desarrolladores para facilitar el mantenimiento o el acceso futuro.
+
+**Características de un backdoor:**
+- Difícil de detectar.
+- Permite acceso remoto al sistema.
+- Puede servir como canal para realizar otras actividades maliciosas, como el robo de información o la ejecución de comandos.
+
+### Rootkit
+
+Un **rootkit** es un conjunto de herramientas de software que permite a un atacante obtener acceso privilegiado (root) a un sistema y mantenerse oculto durante el mayor tiempo posible. Los rootkits pueden modificar el funcionamiento del sistema operativo para ocultar su presencia y la de otros programas maliciosos.
+
+**Tipos de rootkits:**
+- **User-mode rootkits**: Operan en el nivel de usuario del sistema operativo, afectando aplicaciones o procesos sin alterar el núcleo del sistema.
+- **Kernel-mode rootkits**: Funcionan a nivel del núcleo del sistema operativo, lo que los hace más peligrosos ya que pueden modificar funcionalidades básicas del sistema.
+- **Bootkits**: Afectan el proceso de arranque del sistema, cargándose antes de que se inicie el sistema operativo y siendo extremadamente difíciles de eliminar.
+
+**Características de un rootkit:**
+- Oculta la presencia de malware.
+- Puede deshabilitar herramientas de seguridad del sistema.
+- A menudo se utiliza para mantener acceso persistente y sigiloso a un sistema comprometido.
+
+Ambos, **backdoors** y **rootkits**, son usados por atacantes para comprometer la seguridad de un sistema y obtener control a largo plazo sin ser detectados.
