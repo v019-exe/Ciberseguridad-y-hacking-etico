@@ -275,6 +275,38 @@ Los ataques contra protocolos de Wi-Fi incluyen diversas técnicas diseñadas pa
 - **WPA/WPA2 Cracking:** Utiliza técnicas como ataques de diccionario para descifrar contraseñas de redes Wi-Fi.
 - **Deauthenticating Attacks:** Desconectan a los usuarios de la red, permitiendo al atacante capturar información cuando el usuario intenta volver a conectarse.
 
+# Ataques de Aplicaciones
+
+## 1. Secuencias de Comandos entre Sitios (XSS)
+Las secuencias de comandos entre sitios (XSS) son vulnerabilidades que permiten a un atacante inyectar scripts maliciosos en páginas web vistas por otros usuarios. Esto puede resultar en el robo de cookies, información sensible o el desvío de sesiones.
+
+## 2. Inyección de Código
+La inyección de código es una técnica en la que un atacante inserta código malicioso en un programa para alterar su comportamiento. Esto puede incluir la inyección de SQL, donde se manipulan consultas a bases de datos para acceder o modificar información no autorizada.
+
+## 3. Desbordamiento del Búfer
+El desbordamiento del búfer ocurre cuando un programa escribe más datos en un búfer de los que puede manejar, lo que puede corromper datos adyacentes y permitir la ejecución de código malicioso. Esto puede ser explotado para obtener acceso no autorizado o tomar control del sistema.
+
+## 4. Ejecuciones Remotas de Código (RCE)
+Las ejecuciones remotas de código permiten a un atacante ejecutar código en un sistema objetivo desde una ubicación remota. Esto puede resultar en la toma de control total del sistema afectado y se puede lograr a través de vulnerabilidades en aplicaciones o servicios.
+
+## 5. Otros Ataques a Aplicaciones
+Existen diversos ataques adicionales que pueden comprometer la seguridad de las aplicaciones, incluyendo:
+- **Ataques de Inyección XML:** Manipulación de datos XML para acceder o alterar información.
+- **Cross-Site Request Forgery (CSRF):** Engañar a un usuario para que ejecute acciones no deseadas en una aplicación en la que está autenticado.
+- **Manipulación de Parámetros:** Alteración de los parámetros de entrada para acceder a recursos no autorizados.
+
+## 6. Defensa Contra Ataques de Aplicaciones
+Para protegerse contra ataques a aplicaciones, se pueden implementar varias estrategias, tales como:
+- **Validación y Saneamiento de Entradas:** Asegurarse de que todas las entradas de los usuarios sean validadas y filtradas para evitar inyecciones.
+- **Uso de Controles de Acceso:** Implementar políticas de acceso adecuadas para garantizar que solo los usuarios autorizados puedan acceder a ciertos recursos.
+- **Parcheo Regular:** Mantener todas las aplicaciones y sistemas actualizados para cerrar vulnerabilidades conocidas.
+
+## 7. Spam
+El spam se refiere a la práctica de enviar mensajes no solicitados, a menudo de carácter comercial, a un gran número de usuarios. Esto puede saturar bandejas de entrada y ser utilizado para realizar fraudes o propagación de malware.
+
+## 8. Suplantación de Identidad (Phishing)
+La suplantación de identidad es una técnica en la que un atacante se hace pasar por una entidad confiable para engañar a los usuarios y obtener información sensible, como contraseñas o datos financieros. Puede realizarse a través de correos electrónicos, mensajes de texto o sitios web falsos.
+
 
 
 ## Conclusión
