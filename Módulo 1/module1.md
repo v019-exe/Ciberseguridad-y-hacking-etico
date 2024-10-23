@@ -225,6 +225,35 @@ Es el arte de influenciar a las personas para que revelen información sensible 
 - **Simulaciones de Ataques**  
   Realizar simulaciones de phishing y otros ataques de ingeniería social para entrenar al personal y mejorar su capacidad de respuesta.
 
+# Resumen de Ataques Cibernéticos
+
+## 1. Bombas Lógicas
+Las bombas lógicas son programas maliciosos que se activan al cumplirse ciertas condiciones, como la fecha o la hora. Pueden eliminar datos, corromper archivos o realizar otras acciones perjudiciales en el sistema infectado.
+
+## 2. Ransomware
+El ransomware es un tipo de malware que cifra los archivos de la víctima y exige un rescate, generalmente en criptomonedas, para restaurar el acceso a los datos. Este ataque puede causar pérdidas significativas tanto financieras como de reputación.
+
+## 3. DDOS (Denegación de Servicio Distribuida)
+Los ataques DDoS buscan saturar un servidor, servicio o red con un tráfico excesivo, lo que impide que los usuarios legítimos accedan a ellos. Se utilizan redes de bots (botnets) para llevar a cabo estos ataques a gran escala.
+
+## 4. DNS (Sistema de Nombres de Dominio)
+Los ataques DNS pueden incluir la manipulación de registros DNS o el envenenamiento de caché DNS, permitiendo a los atacantes redirigir el tráfico a sitios maliciosos. Esto puede resultar en el robo de credenciales o la propagación de malware.
+
+## 5. Ataques de Capa 2
+Estos ataques ocurren en la capa de enlace de datos del modelo OSI e incluyen técnicas como la suplantación de dirección MAC y el sniffing de tráfico. Son difíciles de detectar y pueden comprometer la integridad de la red.
+
+## 6. MITM (Hombre en el Medio)
+Los ataques de Hombre en el Medio permiten a un atacante interceptar y modificar la comunicación entre dos partes sin que estas lo sepan. Esto puede llevar al robo de información confidencial, como credenciales y datos personales.
+
+## 7. 0day
+Las vulnerabilidades 0day son fallos de seguridad que son desconocidos para los desarrolladores de software y no tienen un parche disponible. Los atacantes pueden explotarlas para obtener acceso no autorizado a sistemas antes de que se pueda mitigar la vulnerabilidad.
+
+## 8. Keyloggers
+Los keyloggers son programas o dispositivos que registran las pulsaciones de teclas de un usuario. Pueden ser utilizados por atacantes para robar credenciales, información personal y realizar fraudes.
+
+
+
+
 ## Conclusión
 
 La ingeniería social es una amenaza seria que aprovecha el comportamiento humano para comprometer la seguridad. La mejor defensa es la educación y la concienciación, así como el uso de buenas prácticas de seguridad, como la autenticación multifactor y políticas estrictas para la gestión de la información.
