@@ -252,7 +252,7 @@ Las vulnerabilidades 0day son fallos de seguridad que son desconocidos para los 
 Los keyloggers son programas o dispositivos que registran las pulsaciones de teclas de un usuario. Pueden ser utilizados por atacantes para robar credenciales, información personal y realizar fraudes.
 
 
-# Resumen de Amenazas Cibernéticas
+## Redes inálambricas
 
 ## 1. Grayware
 Grayware se refiere a software que, aunque no es necesariamente malicioso, puede comprometer la privacidad y la seguridad del usuario. Incluye aplicaciones que muestran anuncios intrusivos, recopilan datos sin consentimiento o alteran el funcionamiento del dispositivo. Ejemplos comunes son adware y spyware.
