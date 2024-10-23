@@ -252,6 +252,29 @@ Las vulnerabilidades 0day son fallos de seguridad que son desconocidos para los 
 Los keyloggers son programas o dispositivos que registran las pulsaciones de teclas de un usuario. Pueden ser utilizados por atacantes para robar credenciales, información personal y realizar fraudes.
 
 
+# Resumen de Amenazas Cibernéticas
+
+## 1. Grayware
+Grayware se refiere a software que, aunque no es necesariamente malicioso, puede comprometer la privacidad y la seguridad del usuario. Incluye aplicaciones que muestran anuncios intrusivos, recopilan datos sin consentimiento o alteran el funcionamiento del dispositivo. Ejemplos comunes son adware y spyware.
+
+## 2. SMiShing
+SMiShing es una variante del phishing que utiliza mensajes de texto (SMS) para engañar a los usuarios y obtener información personal o financiera. Los atacantes envían mensajes fraudulentos que suelen contener enlaces a sitios web maliciosos o solicitan la descarga de aplicaciones dañinas.
+
+## 3. Puntos de Acceso No Autorizados (Evil Twin)
+Los puntos de acceso Evil Twin son redes Wi-Fi falsas que imitan redes legítimas. Los atacantes crean estas redes para atraer a usuarios desprevenidos, permitiendo la interceptación de datos personales y credenciales. Una vez conectados, los atacantes pueden monitorizar y manipular la comunicación del usuario.
+
+## 4. Inhibidores de Radiofrecuencia
+Los inhibidores de radiofrecuencia son dispositivos que bloquean las señales de comunicación inalámbrica. Se utilizan para interferir con la comunicación entre dispositivos, lo que puede impedir el acceso a redes Wi-Fi o la comunicación de datos entre dispositivos móviles. Su uso puede ser ilegal y se asocia con actividades maliciosas.
+
+## 5. Bluejacking y Bluesnarfing
+- **Bluejacking:** Es el envío no autorizado de mensajes a dispositivos Bluetooth cercanos. Aunque generalmente se considera una broma, puede ser utilizado para molestar o confundir a otros usuarios.
+- **Bluesnarfing:** Es una técnica más maliciosa que permite a los atacantes acceder a la información de un dispositivo Bluetooth sin el conocimiento del propietario. Esto puede incluir contactos, mensajes y otros datos sensibles.
+
+## 6. Ataques contra Protocolos de Wi-Fi
+Los ataques contra protocolos de Wi-Fi incluyen diversas técnicas diseñadas para explotar vulnerabilidades en las redes inalámbricas. Ejemplos comunes son:
+- **WPA/WPA2 Cracking:** Utiliza técnicas como ataques de diccionario para descifrar contraseñas de redes Wi-Fi.
+- **Deauthenticating Attacks:** Desconectan a los usuarios de la red, permitiendo al atacante capturar información cuando el usuario intenta volver a conectarse.
+
 
 
 ## Conclusión
