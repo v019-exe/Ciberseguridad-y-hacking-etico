@@ -88,5 +88,15 @@ El dominio de aplicación incluye todos los sistemas críticos, las aplicaciones
 - Pérdida de datos
 - Vulnerabilidad de desarrollo de aplicaciones web o de cliente/servidor.
 
+## IMPORTANTE
 
+En resumen.
+⚫ Un dominio de usuario incluye a cualquier persona con acceso al sistema de información de una organización: todos los empleados, clientes y partners contractuales.
+⚫ Un dominio de dispositivo se refiere a cualquier computadora y otros dispositivos conectados a una red de computadoras.
+⚫ El dominio de las instalaciones físicas incluye todas las instalaciones utilizadas por una organización, así como las medidas de seguridad física empleadas para proteger las instalaciones de una organización.
+• Un dominio LAN es un conjunto de dispositivos conectados localmente por cables o ondas de radio.
+• Un dominio de nube privada incluye cualquier servidor privado, recursos e infraestructura de TI disponibles solo para miembros de una sola organización a través de Internet, mientras que el dominio de nube pública incluye todos los servicios de computación alojados por una nube, servicio o proveedor de Internet que están disponibles para el público y compartido entre las organizaciones. Hay tres modelos diferentes de servicio en la nube:
+1. SaaS ofrece a las organizaciones software alojado de manera centralizada por los usuarios a través de Internet.
+2. Plataforma como servicio (PaaS): proporciona una plataforma que permite que una organización desarrolle, ejecute y administre sus aplicaciones en el hardware del servicio con herramientas provistas por el servicio.
+3. Infraestructura como servicio (IaaS): proporciona recursos de computación virtualizados, como hardware, software, servidores, almacenamiento y otros componentes de infraestructura en Internet.
 
